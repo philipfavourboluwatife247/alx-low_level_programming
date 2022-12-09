@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * This code prints the last digit of a randomly generated number
+ * main - This code prints the last digit of a randomly generated number
  * whether it is greater than 5, less than 6, or 0
  *
- * followed by a new line with the return type to equal 0
+ * followed by a new line with the 
+ * Return: which equal 0
  */
 int main(void)
 {
