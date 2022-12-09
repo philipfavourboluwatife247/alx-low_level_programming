@@ -3,9 +3,7 @@
 #include <time.h>
 /**
  * main - This code prints the last digit of a randomly generated number
- * whether it is greater than 5, less than 6, or 0
- *
- * followed by a new line with the 
+ * whether it is greater than 5, less than 6, or 0 followed by a new line with the 
  * Return: which equal 0
  */
 int main(void)
