@@ -6,11 +6,20 @@
  */
 int main(void)
 {
-	char base16[16] = "0123456789abcdef"
+	char base16;
+
 	int i;
-	for (i = 0; i < 16; i++)
+
+	base16 ='a';
+	while (i < 10)
 	{
-		putchar(base16[i]);
+		putchar(i + '0');
+		d++;
+	}
+	while (base16 <= 'f')
+	{
+		putchar(base16);
+		base16++;
 	}
 	putchar('\n');
 	return (0);
