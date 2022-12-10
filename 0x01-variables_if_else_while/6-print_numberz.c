@@ -7,6 +7,16 @@
  */
 int main(void)
 {
-	int binary = 012345
-	int binaryRem = 6789
-	putchar(binary 
+	int p;
+
+	p = 0;
+	while
+		(p < 10) {
+			putchar(p + '0');
+			p++;
+		}
+		putchar('\n');
+		return (0);
+
+}
+
