@@ -15,7 +15,7 @@ int main(void)
 	while (i < 10)
 	{
 		putchar(i + '0');
-		d++;
+		i++;
 	}
 	while (base16 <= 'f')
 	{
