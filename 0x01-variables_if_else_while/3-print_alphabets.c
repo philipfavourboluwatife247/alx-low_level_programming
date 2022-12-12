@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Entry point
  *
@@ -10,7 +11,7 @@ int main(void)
 {
 	char lowerAlph[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	char upperAlph[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char upperAlph[26] = "ABCDEFGHIJKLMNOPQRATUVWXYZ";
 
 	int i;
 
@@ -20,7 +21,7 @@ int main(void)
 	{
 	putchar(lowerAlph[i]);
 	}
-	
+
 	for (p = 0; p < 26; p++)
 	{
 	putchar(upperAlph[p]);
