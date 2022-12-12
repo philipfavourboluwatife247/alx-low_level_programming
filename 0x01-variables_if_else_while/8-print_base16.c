@@ -3,12 +3,14 @@
 #include <time.h>
 
 /**
- * main - Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+ * main - Entry point
+ *
  * Return: return type is 0
  */
 int main(void)
 {
 	char base16;
+
 	int i;
 
 	base16 = 'a';
@@ -19,7 +21,6 @@ int main(void)
 	putchar(i + '0');
 	i++;
 	}
-
 	while (base16 <= 'f')
 	{
 	putchar(base16);
