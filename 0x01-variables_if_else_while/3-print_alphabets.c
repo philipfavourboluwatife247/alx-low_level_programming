@@ -11,7 +11,7 @@ int main(void)
 {
 	char lowerAlph[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	char upperAlph[26] = "ABCDEFGHIJKLMNOPQRATUVWXYZ";
+	char upperAlph[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	int i;
 
