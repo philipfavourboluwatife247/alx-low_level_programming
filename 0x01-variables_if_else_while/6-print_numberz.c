@@ -1,22 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 /**
- * main - Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line
+ * main - Entry point
  *
- * Return: return types is 0
+ * Return: return type is 0
  */
 int main(void)
 {
 	int p;
 
 	p = 0;
-	while
-		(p < 10) {
-			putchar(p + '0');
-			p++;
-		}
-		putchar('\n');
-		return (0);
+
+	while (p < 10) 
+	{
+	putchar(p + '0');
+	p++;
+	}
+	putchar('\n');
+	return (0);
 
 }
 
