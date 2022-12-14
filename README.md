@@ -1,1 +1,1 @@
-This is the README file of my repository for my training and pracice on low level language(c) at ALX
+This repository contains directories and executable files on low level programming language c tasks in ALX
