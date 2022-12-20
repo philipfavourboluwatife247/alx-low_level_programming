@@ -4,6 +4,10 @@
  * Date: 20th December, 2022.
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - Generates random valid passwords for the
  *        program 101-crackme.
@@ -16,8 +20,6 @@ int main(void)
 	int index = 0, sum = 0, diff_half1, diff_half2;
 
 	srand(time(0));
-
-	index = rand() - RAND_MAX / 2;
 
 	while (sum < 2772)
 	{
