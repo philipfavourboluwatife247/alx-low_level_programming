@@ -1,14 +1,3 @@
-/*
- * Auth: Philip Favour B.
- * File: 102-magic.c
- */
-#include "main.h"
-#include <stdio.h>
-/**
- * main - This is the main function of the program
- *
- * Return: 0 (success)
- */
 int main(void)
 {
 	int n;
