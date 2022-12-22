@@ -6,14 +6,14 @@
 
 /**
  * cap_string - Capitalizes all words of a string.
- * @'': The string to be capitalized.
+ * @'' - The string to be capitalized.
  *
  * Return: A pointer to the changed string.
  */
 char *cap_string(char *)
 {
 	int index = 0;
-	char *str;
+	*str;
 
 	while (str[index])
 	{
