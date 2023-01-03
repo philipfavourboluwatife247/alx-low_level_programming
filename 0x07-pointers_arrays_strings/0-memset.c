@@ -3,23 +3,22 @@
  * File: 0-memset.c
  */
 #include "main.h"
+
 /**
- * _memset - Fills the first n bytes of the memory area
- *          pointed to by @s with the constant byte @c.
- * @s: A pointer to the memory area to be filled.
- * @b: The character to fill the memory area with.
- * @n: The number of bytes to be filled.
+ * _memset - fills memory with a constant byte
+ * @n: First n byte of the memory area
+ * @s: pointer to the memory area of n
+ * @b: a constant byte
  *
- * Return: A pointer to the filled memory area @s.
+ * Return: a pointer to memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
+	unsigned int j;
 
-	for (; n > 0; i++)
+	for (j = 0; j < n; j++)
 	{
-		s[i] = b;
-		n--;
+		s[j] = b;
 	}
-	return (0);
+	return (s);
 }
