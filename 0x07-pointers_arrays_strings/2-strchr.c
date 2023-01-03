@@ -24,7 +24,7 @@ char *_strchr(char *s, char c)
 	{
 		if (c == s[k])
 		{
-			s += b;
+			s += k;
 			return (s);
 		}
 	}
