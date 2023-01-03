@@ -1,6 +1,7 @@
 /*
  * Auth: Philip Favour B.
  * File: 1-memcpy.c
+ */
 #include "main.h"
 /**
  * _memcpy - Copies @n bytes from the memory area pointed
@@ -13,9 +14,12 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int j;
 
-	for (i = 0; i < n; i++)
-		dest[i] = src[i];
+	for (j = 0; j < n; j++)
+	{
+		dest[j] = src[j];
+	}
 	return (dest);
 }
+
