@@ -12,21 +12,21 @@
  */
 char *_strchr(char *s, char c)
 {
-        int j = 0;
-        int k;
+	int j = 0;
+	int k;
 
-        while (s[j])
-        {
-                j++;
-        }
+	while (s[j])
+	{
+		j++;
+	}
 
-        for (k = 0; k <= j; k++)
-        {
-                if (c == s[k])
-                {
-                        s += k;
-                        return (s);
-                }
-        }
-        return ('\0');
+	for (k = 0; k <= j; k++)
+	{
+		if (c == s[k])
+		{
+			s += k;
+			return (s);
+		}
+	}
+	return ('\0');
 }
