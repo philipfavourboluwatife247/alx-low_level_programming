@@ -3,7 +3,7 @@
  * File: 101-mul.c
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
