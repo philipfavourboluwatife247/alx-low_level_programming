@@ -5,3 +5,4 @@ clean:
 	rm -f 1-main
 	rm -f 2-main
 	rm -f 02-main
+	rm -f 3-main
